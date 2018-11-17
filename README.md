@@ -356,7 +356,7 @@ For Uninstall and Locked, you specify extension IDs.
 {
   "policies": {
     "Extensions": {
-      "Install": ["https://addons.mozilla.org/firefox/downloads/somefile.xpi", "//path/to/xpi"],
+      "Install": ["https://addons.mozilla.org/firefox/downloads/somefile.xpi", "//path/to/xpi", "https://addons.mozilla.org/firefox/downloads/latest/adblock-plus/"],
       "Uninstall": ["addon_id@mozilla.org"],
       "Locked":  ["addon_id@mozilla.org"]
     }
